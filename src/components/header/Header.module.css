@@ -1,0 +1,44 @@
+/* header-start */
+
+.container {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 1200px;
+}
+
+header {
+  background-color: #fffeef6f;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: 25px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container a {
+  text-decoration: none;
+  /* line-height: 40px; */
+}
+
+.headerRightSide {
+  padding: 5px 10px;
+}
+
+.menuLink {
+  color: #8b4513;
+  padding: 5px 10px;
+  border-radius: 30px;
+  transition: .5s;
+}
+
+.menuLink:hover {
+  background-color: #8b451383;
+  color: white;
+}
+/* header-end */

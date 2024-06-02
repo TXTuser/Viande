@@ -1,0 +1,58 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+/* font */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 1200px;
+}
+
+/* hero-start */
+
+.hero {
+  background-image: url("../../image/hero.png");
+  height: 100vh;
+}
+
+.hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.logo {
+  width: 75%;
+}
+
+/* hero-end */
+
+/* mail-start */
+
+/* .mail {
+  background-image: url(../../image/mailbackground.svg);
+  font-family: "Island Moments", cursive;
+}
+
+.mailContent {
+  padding: 25px;
+  background-color: #fffeef;
+  box-shadow: 5px 5px 15px black;
+  border-radius: 10px;
+}
+
+.mailSign {
+  font-size: 30px;
+}
+
+.mailText {
+    font-size: 30px;
+} */
+
+/* mail-end */
