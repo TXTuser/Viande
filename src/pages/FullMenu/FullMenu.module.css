@@ -1,0 +1,57 @@
+.container {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 1200px;
+}
+
+/* FullMenu-start */
+
+.accordion_header {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.accordion_header span {
+  padding: 10px;
+}
+
+.accordion_body {
+  padding: 5px;
+}
+
+.accordion_item {
+  background-color: #fffeef;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid brown;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  align-items: center;
+}
+
+.accordion_item img {
+  width: 150px;
+  height: 150px;
+}
+
+.accordion_item_left_side {
+  display: flex;
+  gap: 10px;
+}
+
+.accordion_item_left_side_info {
+  padding: 10px;
+  gap: 10px;
+}
+
+.compound {
+  width: 50%;
+}
+
+/* FullMenu-end */

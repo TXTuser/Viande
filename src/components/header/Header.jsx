@@ -17,6 +17,12 @@ const Header = () => {
           </div>
         </div>
       </header>
+
+      {/* <Router>
+        <Switch>
+          <Route exect path="/menu" Component={FullMenu} />
+        </Switch>
+      </Router> */}
     </>
   );
 };
