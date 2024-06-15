@@ -53,9 +53,11 @@ const Menu = () => {
       <div className={cl.contentBlock}>
         <p className={cl.title}>Menu</p>
         <div className={cl.fullMenu}>
+          {/* поменять на navlink */}
           <a href="">Барная карта</a>
           <a href="">Основное меню</a>
           <a href="">Винная карта</a>
+          {/* поменять на navlink */}
         </div>
         <section className={cl.menu}>
           {infoMenu.map((el) => (

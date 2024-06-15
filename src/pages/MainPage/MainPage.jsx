@@ -4,8 +4,6 @@ import cl from "./MainPage.module.css";
 import Header from "../../components/header/Header";
 import Team from "../../components/team/Team";
 import Menu from "../../components/menu/Menu";
-import Accordion from "../../components/accordion/Accordion";
-import FullMenu from "../../pages/FullMenu/FullMenu";
 
 const MainPage = () => {
   return (
@@ -38,10 +36,6 @@ const MainPage = () => {
       <Team />
 
       <Menu />
-
-      {/* <Accordion /> */}
-
-      {/* <FullMenu /> */}
     </>
   );
 };

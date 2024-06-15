@@ -213,9 +213,9 @@ const FullMenu = () => {
   //
   //
   //
-  const [accordionMenuSalad, setAccordionMeuSalad] =
+  const [accordionMenuSalad, setAccordionMenuSalad] =
     useState(accordionMenuDBSalad);
-  const [accordionMenuSoup, setAccordionMeuSoup] =
+  const [accordionMenuSoup, setAccordionMenuSoup] =
     useState(accordionMenuDBSoup);
   const [accordionMenuPaste, setaccordionMenuPaste] =
     useState(accordionMenuDBPaste);

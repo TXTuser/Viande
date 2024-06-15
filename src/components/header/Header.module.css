@@ -7,12 +7,14 @@
 }
 
 header {
-  background-color: #fffeef6f;
+  /* background-color: #fffeef6f; */
+  background-color: #fffeef86;
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   font-size: 25px;
+  backdrop-filter: blur(5px);
 }
 
 header .container {

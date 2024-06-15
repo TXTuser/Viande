@@ -1,7 +1,6 @@
 import React from "react";
 import cl from "../header/Header.module.css";
 import { NavLink } from "react-router-dom";
-// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -10,6 +9,9 @@ const Header = () => {
         <div className={cl.container}>
           <NavLink to="/menu" className={cl.menuLink}>
             Меню
+          </NavLink>
+          <NavLink to="/reservations" className={cl.menuLink}>
+            Бронирование
           </NavLink>
           <div className={cl.headerRightSide}>
             <p>Ул. Пушкина Д. 2</p>

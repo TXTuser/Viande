@@ -1,5 +1,4 @@
-import { useState } from "react";
-import viteLogo from "/vite.svg";
+import Table from './pages/Table/Table'
 import MainPage from "./pages/MainPage/MainPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -13,6 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/menu" element={<FullMenu />} />
+          <Route path="/reservations" element={<Table />} />
         </Routes>
       </BrowserRouter>
     </>
