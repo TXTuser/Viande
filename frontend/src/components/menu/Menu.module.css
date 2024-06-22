@@ -1,0 +1,78 @@
+/* font-start */
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+/* font-end */
+
+/* menu-start */
+
+.container {
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.contentBlock {
+  margin: 50px 0 50px 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.fullMenu {
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  margin: 25px 0 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: #8b4513;
+}
+
+.menu {
+  margin: 25px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dishInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dishInfo p {
+  font-size: 18px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modalContent {
+  background: white;
+  /* padding: 20px; */
+  border-radius: 8px;
+}
+
+.modalContent img {
+  border-radius: 25px;
+  width: 750px;
+  height: 100%;
+}
+
+
+/* menu-end */

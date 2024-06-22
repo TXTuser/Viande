@@ -1,0 +1,77 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+/* font */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.hero {
+  background-image: url("../../image/hero.png");
+  height: 100vh;
+}
+
+.hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.logo {
+  width: 75%;
+}
+
+/*  */
+
+.newsTitle {
+  text-align: center;
+  font-size: 40px;
+}
+
+.newsMainBlock {
+  margin: 25px 0 0 0;
+}
+
+.newsBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.newsInfo {
+  width: 40%;
+  text-align: end;
+}
+
+.newsBlock img {
+  border-radius: 10px;
+  font-size: 0;
+  width: 600px;
+  height: 400px;
+}
+
+.newsInfoTitle {
+  font-size: 25px;
+  padding: 5px 0;
+}
+
+.newsInfoDescription {
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+.newsInfoDate {
+  font-size: 15px;
+  padding: 5px 0;
+}
+
+/*  */
